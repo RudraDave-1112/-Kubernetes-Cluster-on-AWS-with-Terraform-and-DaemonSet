@@ -1,4 +1,4 @@
-# -Kubernetes-Cluster-on-AWS-with-Terraform-and-DaemonSet
+# Kubernetes-Cluster-on-AWS-with-Terraform-and-DaemonSet
 Deployed a Kubernetes cluster on AWS using Terraform with 1 master and 2 worker nodes. Initialized K8s using kubeadm, verified setup via kubectl. Deployed a DaemonSet to run pods on all nodes. Validated service on port 1233 through browser access using public IPs of master and worker nodes.
 
 This lab focused on deploying a Kubernetes cluster on AWS using Terraform to automate infrastructure provisioning. The setup included one master node and two worker nodes, each launched on separate EC2 instances. Using Infrastructure as Code (IaC), resources such as VPCs, subnets, security groups, and EC2 instances were defined and created consistently using Terraform scripts.
